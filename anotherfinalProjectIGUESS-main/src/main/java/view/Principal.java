@@ -24,6 +24,7 @@ public class Principal extends JFrame{
         styles.StyleButton(emprestimosButton);
         styles.StyleButton(sairButton);
         this.setVisible(true);
+
         livrosButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
