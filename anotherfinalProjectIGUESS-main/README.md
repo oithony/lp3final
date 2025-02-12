@@ -1,4 +1,4 @@
-# Another Final Project - CRUD com Hibernate
+#Final Project - CRUD com Hibernate
 
 Este projeto é um exemplo de aplicação CRUD (Create, Read, Update, Delete) utilizando Hibernate e MySQL. Ele implementa uma interface gráfica (GUI) utilizando o **Swing** para permitir a interação do usuário com as operações de gerenciamento de dados. A aplicação permite o cadastro, busca, atualização e remoção de usuários e livros.
 
