@@ -52,7 +52,7 @@ public class Principal extends JFrame{
         sairButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                dispose();
+                System.exit(0);
             }
         });
 
