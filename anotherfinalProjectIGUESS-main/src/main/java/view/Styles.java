@@ -12,7 +12,7 @@ public class Styles {
     public void StyleButton(JButton button) {
         button.setFocusPainted(false);
         button.setFont(new Font("Segoe UI", Font.BOLD, 16));
-        button.setBackground(new Color(0, 102, 204));
+        button.setBackground(new Color(50, 50, 50));
         button.setForeground(Color.WHITE);
         button.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
 

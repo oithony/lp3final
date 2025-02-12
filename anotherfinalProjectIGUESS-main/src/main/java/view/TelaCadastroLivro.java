@@ -39,6 +39,12 @@ public class TelaCadastroLivro extends JFrame {
         styles.StyleButton(salvarButton);
         styles.StyleButton(buscarButton);
         styles.StyleButton(voltarButton);
+        styles.StyleTextField(tituloField);
+        styles.StyleTextField(temaField);
+        styles.StyleTextField(autorField);
+        styles.StyleTextField(isbnField);
+        styles.StyleTextField(dataPublicacaoField);
+        styles.StyleTextField(quantidadeField);
 
         salvarButton.addActionListener(new ActionListener() {
             @Override

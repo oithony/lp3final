@@ -45,7 +45,10 @@ public class TelaCadastroEmprestimo extends JFrame {
         styles.StyleButton(devolverButton);
         styles.StyleButton(voltarButton);
         styles.StyleButton(buttonListarIds);
-
+        styles.StyleTextField(idLivroField);
+        styles.StyleTextField(dataEmprestimoField);
+        styles.StyleTextField(dataDevolucaoField);
+        styles.StyleTextField(idUsuarioField);
 
         emprestarButton.addActionListener(new ActionListener() {
             @Override
