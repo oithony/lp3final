@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.TelaCadastroEmprestimo">
+  <grid id="27dc6" binding="painelEmprestimo" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="691" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="80f57" class="javax.swing.JLabel" binding="GERENCIAMENTODEEMPRESTIMOSDELIVROS">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Semibold" size="18"/>
+          <text value="GERENCIAMENTO DE EMPRÉSTIMOS DE LIVROS"/>
+        </properties>
+      </component>
+      <hspacer id="aa95">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="80118" class="javax.swing.JLabel" binding="IDDOUSUARIO">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ID DO USUÁRIO: "/>
+        </properties>
+      </component>
+      <hspacer id="d873c">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="7a69f">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="32eb4" class="javax.swing.JTextField" binding="idUsuarioField">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9175f" class="javax.swing.JLabel" binding="IDDOLIVRO">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ID DO LIVRO: "/>
+        </properties>
+      </component>
+      <component id="373c8" class="javax.swing.JTextField" binding="idLivroField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4482f" class="javax.swing.JLabel" binding="DATADOEMPRESTIMO">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DATA DO EMPRÉSTIMO: "/>
+        </properties>
+      </component>
+      <component id="a9557" class="javax.swing.JTextField" binding="dataEmprestimoField">
+        <constraints>
+          <grid row="3" column="2" row-span="2" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c360a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DATA DE DEVOLUÇÃO: "/>
+        </properties>
+      </component>
+      <component id="8133e" class="javax.swing.JTextField" binding="dataDevolucaoField">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1fdbf" class="javax.swing.JButton" binding="emprestarButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Emprestar"/>
+        </properties>
+      </component>
+      <component id="ffffe" class="javax.swing.JButton" binding="voltarButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Voltar"/>
+        </properties>
+      </component>
+      <scrollpane id="b252c" binding="scrollPaneUsuario">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="ID DO USUÁRIO: "/>
+        <children>
+          <component id="aa604" class="javax.swing.JTable" binding="tableUsuarios">
+            <constraints/>
+            <properties>
+              <font name="Segoe UI Semibold" size="18"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="cff5" binding="scrollPaneLivro">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="ID DO LIVRO: "/>
+        <children>
+          <component id="bf5e5" class="javax.swing.JTable" binding="tableLivros">
+            <constraints/>
+            <properties>
+              <font name="Segoe UI Semibold" size="18"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="cd632">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8add5" class="javax.swing.JButton" binding="devolverButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Devolver"/>
+        </properties>
+      </component>
+      <component id="c2296" class="javax.swing.JButton" binding="buttonListarIds">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Listar Id´s"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
